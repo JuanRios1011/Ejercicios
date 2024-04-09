@@ -1,3 +1,4 @@
+console.log("Ejercicio6..........................................")
 let numeroArticulos = prompt("Ingrese el número de artículos:");
 let precioArticulo = prompt("Ingrese el precio de cada artículo en euros:");
 

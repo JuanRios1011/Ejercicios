@@ -1,3 +1,4 @@
+console.log("Ejercicio 2...........................................")
 let numero = prompt("Ingresa un número:");
         numero = parseFloat(numero);
         if (numero > 0) {
