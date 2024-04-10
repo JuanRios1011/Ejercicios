@@ -1,12 +1,12 @@
 console.log("Ejercicio 5")
-kilometros=220
-tiempo=4
-function conductor(tiempo, kilometros){
-    if (tiempo==4 && kilometros==220){
+const tiempo = parseFloat(process.argv[2])
+const kilometros = parseFloat(process.argv[3])
+
+const conductor = tiempo / kilometros
+    if (conductor >=40 && conductor<=60){
         console.log("conductor calificado")
     }else{
         console.log("conductor descalificado")
     } 
-}
-console.log(conductor(tiempo, kilometros))
+
 

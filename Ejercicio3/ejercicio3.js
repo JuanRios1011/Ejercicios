@@ -1,14 +1,16 @@
 console.log("Ejercicio 3")
-function res(numero1, numero2){
+const numero1 = parseFloat(process.argv[2])
+const numero2 = parseFloat(process.argv[3])
+
     if (numero1 > numero2){
-        return numero1 - numero2
+        res = numero1 - numero2
+        console.log(`el resultado de la resta es ${res}`)
     }else{
-        return numero2 - numero1
+        res = numero2 - numero1
+        console.log(`el resultado de la resta es ${res}`)
     }
-    
-}
-console.log(res(10,5))
-console.log(res(20,30))
+
+
     
 
 
